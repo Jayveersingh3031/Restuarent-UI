@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    box-shadow: 0 1px 2px  rgb(0,0,0,.1);
+    font-size: 2vw;
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 12vh;
+}
+
+.navbar .left {
+    display: flex;
+}
+
+.navbar .left i{
+    color: orangered;
+}
+
+.navbar .right a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 8vw;
+}
+
+.container .left{
+    width: 40%;
+}
+
+.container .right{
+    width: 60%;
+    padding-left: 6vw;
+}
+
+.container .right img{
+    width: 100%;
+    margin-top: 8vw;
+}
+
+.container .left h1{
+    font-size: 3vw;
+    padding-bottom: 20px;
+}
+
+.container .left p{
+    font-size: 1.5vw;
+    padding-bottom: 20px;
+}
+
+.btn{
+    padding: 12px 20px;
+    color: orangered;
+    font-weight: 600;
+    border:2px solid orangered;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color: #ffff;
+    background-color: orangered;
+    transition: 0.2s linear;
+}
+
+.container2{
+    padding: 0 10vw;
+}
+
+.container2 .title{
+    text-align: center;
+    margin-top: 30px;
+    padding:20px;
+}
+
+span{
+    color: orangered;
+}
+
+.card {
+    height: 260px;
+    width: 370px;
+    box-shadow: 0 1px 2px rgb(0,0,0,1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .contain{
+    text-align: center;
+    padding: 30px 25px;
+}
+
+.card .contain p{
+    margin: 15px 0;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card .image{
+    height: 25%;
+    width: 20%;
+    object-fit: fill;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+}
+
+.card:hover .cover{
+    transition:0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    top: 0;
+}
+
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card1{
+    height: 450px;
+    width: 370px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 1.5px 2px rgb(0,0,0,1);
+}
+
+
+.card1 .image{
+    width: 90%;
+    height: 60%;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.star img{
+    width: 10%;
+}
+
+.priceTag{
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    color: #ffff;
+    background-color: rgba(255, 68, 0, 0.955);
+    width: 110px;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.container3{
+    height: 65vh;
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(240, 92, 38);
+}
+
+.cir-container{
+    text-align: center;
+    width: 3000px;
+    padding: 20px;
+}
+
+.container3 h1{
+    padding-top: 40px ;
+}
+
+.circle img{
+    width: 100%;
+}
+
+.card2{
+    height: 260px;
+    width: 370px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgb(0,0,0,1);
+}
+
+
+.contain1{
+    text-align: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: -100%;
+    background-color: rgba(255, 255, 255, 0.855);
+    text-align: center;
+}
+
+.contain1 p{
+    margin: 18px 0;
+}
+
+.cover1{
+    height: 100%;
+    width: 100%;
+}
+
+
+.card2:hover .contain1{
+    top: 0%;
+    transition:0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+.cards3{
+    display: flex;
+    width: 100%;
+}
+
+.container3{
+    width: 100%;
+}
+
+.card3{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.card3{
+    height: 450px;
+    width: 370px;
+}
+
